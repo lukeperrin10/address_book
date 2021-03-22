@@ -1,0 +1,20 @@
+{
+  "name": "address_book",
+  "version": "1.0.0",
+  "description": "Address book app",
+  "main": "index.js",
+  "author": "Luke Perrin",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  },
+  "dependencies": {
+    "superstatic": "^7.1.0"
+  },
+
+  "scripts": {
+    "start": "superstatic src --port 3002",
+    "cy:open": "yarn start & cypress open"
+  }
+
+}
