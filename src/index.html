@@ -9,11 +9,11 @@
 <body>
     <h1>Contacts</h1>
     <button id="add-contact">Add a Contact</button>
-    <form id="new-contact"></form>
+    <form id="new-contact">
         <label for="first name">First Name</label>
-        <input type="text" name="first name" id="first_name">
+        <input type="text" name="first name" id="firstName">
         <label for="last name">Last Name</label>
-        <input type="text" name="last name" id="last_name">
+        <input type="text" name="last name" id="lastName">
         <label for="telephone">Telephone</label>
         <input type="text" name="telephone" id="telephone">
         <label for="company">Company</label>
@@ -21,6 +21,8 @@
         <label for="twitter">Twitter</label>
         <input type="text" name="twitter" id="twitter">
         <input id="submit" type="submit" value="save contact">
+    </form>
+        <div id="contact-list"></div>
         <script src="./assets/js/app.js"></script>
 
 
