@@ -15,6 +15,36 @@ h1 {
     padding-top: 15px;
 }
 
+
+
+#search-grid {
+
+    display: grid;
+    justify-content: center;
+    width: 20%;
+    padding-top: 25px; 
+    margin-bottom: 15px;
+   
+    
+}
+
+
+#search {
+
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    width: 100%;
+    padding: 5px;
+    background-color: mistyrose;
+    border: solid;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    
+
+}
+
 #submit {
 
     background-color: green;
@@ -40,18 +70,20 @@ h1 {
 #form-grid {
     display: grid;
     justify-content: center;
-    float: left;
     width: 20%;
+    padding-top: 25px; 
+
     
 }
 
 #new-contact {
     color: snow;
-    padding-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    float: left;
+
     
 }
 
@@ -84,7 +116,8 @@ input[type="email"] {
     font-weight: bold;
     font-size: 16px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-right: 50px;
+
     border: 2px solid black;
     width: auto;
     padding-right: 30px;
@@ -96,5 +129,4 @@ input[type="email"] {
     margin: 0;
     padding-bottom: 5px;
 
-    
 }

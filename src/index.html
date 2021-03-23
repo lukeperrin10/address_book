@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Address Book</title>
-    <link href="./index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
     <header class="topbar">
         <h1>Contacts</h1>
-            <h2> Please click on Add Contact to begin. <br/> <button id="add-contact">Add Contact</button></h2>
+        <h2> Please click on an option below to begin. <br/> <button id="add-contact">Add Contact</button> </h2>
+
+        <section id="search-grid">
+             <label for="search-contacts">Search Contacts</label>
+             <input type="search" name="search" id="search">
+             <input type="submit" name="submit search" id="submit-search">
+             
+        </section>
+
+       
     </header>
+    
 
     <section id="form-grid">    
         <form id="new-contact">
@@ -29,6 +39,7 @@
             <input id="submit" type="submit" value="Save Contact">
         </form>
     </section>
+    
     <div id="contact-list"></div>
     <script src="./assets/js/app.js"></script>
     

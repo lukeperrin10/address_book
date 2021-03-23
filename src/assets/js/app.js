@@ -29,6 +29,7 @@ const renderContacts = () => {
     }
 }
 
+
 document.addEventListener('DOMContentLoaded', () => {
     renderContacts()
     const contactForm = document.getElementById('new-contact')
@@ -67,6 +68,14 @@ document.addEventListener('DOMContentLoaded', () => {
         storage.setItem('contacts', JSON.stringify(contacts))
         renderContacts()
         contactForm.reset()
+
+
+
+
+            
+
+
+        
     })
 })
 
@@ -110,3 +119,4 @@ document.getElementById("firstName")
         }
    
 }); 
+
