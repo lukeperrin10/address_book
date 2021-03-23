@@ -15,7 +15,7 @@ const renderContacts = () => {
 
             li.innerHTML = `
                 <span>${contact.firstName}</span> |
-                <span>${contact.lastName} |
+                <span>${contact.lastName}</span> |
                 <span>${contact.email}</span> |
                 <span>${contact.telephone}</span>
             `
@@ -28,7 +28,7 @@ const renderContacts = () => {
     }
 }
 
-document.addEventListener('DOMcontentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     renderContacts()
     const contactForm = document.getElementById('new-contact')
     contactForm.addEventListener('submit', event => {
@@ -41,8 +41,7 @@ document.addEventListener('DOMcontentLoaded', () => {
             lastName: lastName.value,
             email: email.value,
             telephone: telephone.value,
-            company: company.value, 
-            twitter: twitter.value, 
+            company: company.value,
         }
 
         console.log(contact)

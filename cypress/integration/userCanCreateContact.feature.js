@@ -8,7 +8,7 @@ describe('user can create a contact', () => {
         cy.get('#lastName').type('Perrin')
         cy.get('#telephone').type('0731234567')
         cy.get('#company').type('Student')
-        cy.get('#twitter').type('welsh_thor')
+        cy.get('#email').type('lukeperrin27@gmail.com')
         cy.get('#submit').click()
     })
 
