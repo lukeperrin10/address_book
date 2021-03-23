@@ -14,10 +14,11 @@ const renderContacts = () => {
             let li = document.createElement('li')
 
             li.innerHTML = `
-                <span>${contact.firstName}</span> |
+                <span>${contact.firstName}</span> 
                 <span>${contact.lastName}</span> |
                 <span>${contact.email}</span> |
-                <span>${contact.telephone}</span>
+                <span>${contact.telephone}</span> |
+                <span>${contact.company}</span>
             `
             ul.appendChild(li)    
         })
@@ -69,3 +70,43 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
+document.getElementById("email")
+    .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("calculate").click();
+        }
+   
+}); 
+document.getElementById("company")
+    .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("calculate").click();
+        }
+   
+}); 
+document.getElementById("telephone")
+    .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("calculate").click();
+        }
+   
+}); 
+document.getElementById("lastName")
+    .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("calculate").click();
+        }
+   
+}); 
+document.getElementById("firstName")
+    .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("calculate").click();
+        }
+   
+}); 

@@ -5,26 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Address Book</title>
+    <link rel="stylesheet" href="/src/assets/css/style.css">
 </head>
 
 <body>
-    
-    <h1>Contacts</h1>
-    <button id="add-contact">Add a Contact</button>
-    <form id="new-contact">
-        <label for="first name">First Name</label>
-        <input type="text" name="firstName" id="firstName">
-        <label for="last name">Last Name</label>
-        <input type="text" name="lasName" id="lastName">
-        <label for="telephone">Telephone</label>
-        <input type="text" name="telephone" id="telephone">
-        <label for="company">Company</label>
-        <input type="text" name="company" id="company">
-        <label for="twitter">email</label>
-        <input type="text" name="email" id="email">
-        <input id="submit" type="submit" value="save contact">
-    </form>
-    
+    <header class="topbar">
+        <h1>Contacts</h1>
+            <h2> Please click on Add Contact to begin. <br/> <button id="add-contact">Add Contact</button></h2>
+    </header>
+
+    <section id="form-grid">    
+        <form id="new-contact">
+            <label for="first name">First Name</label>
+            <input type="text" name="firstName" id="firstName">
+            <label for="last name">Last Name</label>
+            <input type="text" name="lasName" id="lastName">
+            <label for="telephone">Telephone</label>
+            <input type="text" name="telephone" id="telephone">
+            <label for="company">Company</label>
+            <input type="text" name="company" id="company">
+            <label for="twitter">Email</label>
+            <input type="email" name="email" id="email"><br/>
+            <input id="submit" type="submit" value="Save Contact">
+        </form>
+    </section>
     <div id="contact-list"></div>
     <script src="./assets/js/app.js"></script>
     

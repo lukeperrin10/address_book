@@ -1,0 +1,100 @@
+
+body {
+    background-color: slategray;
+    text-align: center;
+    margin: 0;
+   
+}
+
+h1 {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 52px;
+    text-decoration: underline;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#submit {
+
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    border: solid;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#add-contact {
+    margin-top: 10px;
+    border: solid;
+    background-color: snow;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 24px;
+}
+
+
+#form-grid {
+    display: grid;
+    justify-content: center;
+    float: left;
+    width: 20%;
+    
+}
+
+#new-contact {
+    color: snow;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+}
+
+input[type="text"] {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: solid;
+    width: 100%;
+    padding: 5px;
+    background-color: mistyrose;
+    
+}
+
+input[type="email"] {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: solid;
+    width: 100%;
+    padding: 5px;
+    background-color: mistyrose;
+}
+
+#contact-list {
+
+    float: left;
+    color: snow;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px solid black;
+    width: auto;
+    padding-right: 30px;
+}
+
+.topbar {
+
+    background-color: lightgrey;
+    margin: 0;
+    padding-bottom: 5px;
+
+    
+}
